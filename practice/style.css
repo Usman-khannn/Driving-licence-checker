@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+}
+
+#mylabel{
+    font-family: verdana;
+    font-size: 2em;
+    
+}
+
+.mylabel1{
+    text-shadow: 2px 2px 10px yellow ;
+}
+
+.mylabel1:hover{
+    transition: color 0.25s;
+    text-shadow: 2px 2px 10px blue;
+}
+
+#mysubmit{
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 5px;
+    box-shadow: 0px 15px 10px grey;
+}
+
+.btn1{
+    background-color: rgb(182, 182, 251);
+    
+}
+
+.btn1:hover{
+    transition: color 0.25s;
+    background-color: yellow;
+    
+}
+
+#outputtext{
+    font-family: verdana;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.ot1::after{
+    content:"🚗";
+}
